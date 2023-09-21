@@ -40,6 +40,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'credits',
+        message: `List your collaborators, if any, with links to their GitHub profiles.`
+    },
+    {
+        type: 'input',
         name: 'contribute',
         message: `If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.\n\n`,
     },
@@ -60,7 +65,7 @@ const questions = [
     },
 ];
 
-const generateREADME = ({ title, description, install, usage, license, contribute, tests, github, email }) =>
+const generateREADME = ({ title, description, install, usage, license, credits, contribute, tests, github, email }) =>
   `# ${title} 
   
   ${license}
@@ -89,6 +94,10 @@ const generateREADME = ({ title, description, install, usage, license, contribut
   ## License
   
   ${license}
+
+  ## Credits
+
+  ${credits}
   
   ## How to Contribute
 

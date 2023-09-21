@@ -1,10 +1,10 @@
-# README Generator 
+# Note-Taker 
   
   MIT
 
   ## Description
 
-  I was motivated to simplify my development process by making my readme writing automated into an application. I built it because I'm lazy beyond belief and love to simplify my process. It solves the problem of copying and pasting things into a readme template and just following prompts. I learned how to effectively piecewise inquirer prompts into functions
+  I was motivated to build this to improve my organization and keep on task. I built it to improve my comprehension of the source material. It solves the deficits my ADHD creates, and I learned how to more effectively routes things and store things effectively outside of browser storage.
 
   ## Table of Contents (Optional)
   
@@ -17,23 +17,27 @@
   
   ## Installation
   
-  install git. install node.js. In the terminal, call 'npm i inquirer@8.2.4'
+  install node.js and heroku, login to heroku in CLI, open terminal in cloned repo folder, run "npm i", and push to a new heroku project. Or just run off of the project's heroku link below in usage.
   
   ## Usage
 
-  open terminal in folder containing repository, initialize with 'node index.js' and answer the questions. your README will be outputted
+  Video URL: Click "Get Started" button. Type your note's title and the note itself. Hit the save button to save in the sidebar. Hit the plus sign to make a new note. Click on any of the titles in the sidebar to access old notes.
 
   ## License
   
   MIT
+
+  ## Credits
+
+  ChatGPT: https://chat.openai.com
   
   ## How to Contribute
 
-  Don't be a jerk
+  Utilize general contributor covenant rules
 
   ## Tests
   
-  Not sure what to put here
+  
 
   ## Questions
 
